@@ -11,8 +11,8 @@ import java.util.*;
 
 @RestController
 public class RestTemplateController {
-  private final String URI_EMPLOYEE = "http://localhost:8081/employees/";
-  private final String URI_EMPLOYEE_ID = "http://localhost:8081/employees/{id}";
+  private final String URI_EMPLOYEE = "http://localhost:8080/employees";
+  private final String URI_EMPLOYEE_ID = "http://localhost:8080/employees/{id}";
 
   @Autowired
   RestTemplate restTemplate;
